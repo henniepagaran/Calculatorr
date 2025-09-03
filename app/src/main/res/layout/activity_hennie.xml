@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    android:background="#EBBCE6"
     android:gravity="center">
 
 
@@ -36,47 +35,24 @@
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#F06EE0"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginLeft="2dp"
             android:text="+" />
 
         <Button
             android:id="@+id/btnSub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#F06EE0"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginLeft="2dp"
             android:text="-" />
 
         <Button
             android:id="@+id/btnMul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#F06EE0"
-            android:textColor="@color/black"
-            android:textSize="30dp"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginLeft="2dp"
             android:text="×" />
 
         <Button
             android:id="@+id/btnDiv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#F06EE0"
-            android:textColor="@color/black"
-            android:textSize="30dp"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
             android:text="÷" />
     </LinearLayout>
 
@@ -86,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Result will appear here"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:gravity="center"
         android:layout_marginTop="20dp"/>
 </LinearLayout>
